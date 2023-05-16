@@ -1,0 +1,144 @@
+body {
+    background-color: #F9FBE7;
+}
+
+.currencySelect1 {
+    display: inline-block;
+    position: absolute;
+    left: 140px;
+    top: 278px;
+    padding: 12px 20px;
+    font-family: 'Cutive Mono', monospace;
+    background-color: #E6FFFD;
+    border: 0;
+    border-radius: 100px;
+}
+
+.currencySelect1:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.currencySelect2 {
+    display: inline-block;
+    position: absolute;
+    left: 570px;
+    top: 278px;
+    padding: 12px 20px;
+    font-family: 'Cutive Mono', monospace;
+    background-color: #E6FFFD;
+    border: 0;
+    border-radius: 100px;
+}
+
+.currencySelect2:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.currencySelectText1 {
+    position: relative;
+    display: inline-block;
+    top: 180px;
+    left: 210px;
+    font-family: 'Lilita One', cursive, sans-serif, serif;
+    color: #4C4C6D;
+    font-size: 19px;
+}
+
+.currencySelectText2 {
+    position: relative;
+    display: inline-block;
+    top: 180px;
+    left: 480px;
+    font-family: 'Lilita One', cursive, sans-serif, serif;
+    color: #4C4C6D;
+    font-size: 19px;
+}
+
+.mainFrame {
+    background-color: #AEE2FF;
+    height: 500px;
+    width: 1000px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 0px;
+}
+
+.mainFrameText1 {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 250px;
+    width: 490px;
+    font-family: 'Lilita One', cursive, sans-serif, serif;
+    font-size: 23px;
+    color: #4C4C6D;
+}
+
+#inputFirstValue {
+    position: absolute;
+    top: 140px;
+    left: 295px;
+    width: 550px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #E6FFFD;
+    border: 0;
+    border-radius: 10px;
+}
+
+#inputFirstValue:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.inputFirstValueText {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 128px;
+    left: 50px;
+    width: 200px;
+    font-family: 'Lilita One', cursive, sans-serif, serif;
+    font-size: 23px;
+    color: #4C4C6D;
+}
+
+.topText {
+    text-align: center;
+    top: 50px;
+    position: relative;
+}
+
+.mainHeading {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-family: 'Pacifico', 'cursive', 'sans-serif';
+    color: #4C4C6D;
+}
+
+.submit {
+    display: inline-block;
+    position: relative;
+    top: 300px;
+    left: 425px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-family: 'Lilita One', cursive, sans-serif, serif;
+    color: #4C4C6D;
+    background-color: #F9FBE7;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 100px;
+}
+
+.submit:hover {
+    background-color: #4C4C6D;
+    color: #F9FBE7;
+    cursor: pointer;
+}

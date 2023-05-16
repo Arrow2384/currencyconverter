@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather&family=Montserrat&family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2 class="mainHeading">Currency Converter</h2>
+    <div class="mainFrame">
+    
+        <label class="mainFrameText1">Select the convenient option of conversion</label>    
+                <label class="inputFirstValueText">Enter the amount:</label>
+                <input type="number" id="inputFirstValue">
+                <label class="currencySelectText1">Original Currency</label>
+                <label class="currencySelectText2">Converting Currency</label>
+                    <div class="customCurrencySelect1">
+                        <select class="currencySelect1" id="">
+                            <option value="">--Select one of the currency--</option>
+                            <option value="INR">Indian Ruppee (INR)</option>
+                            <option value="USD">US Dollars (USD)</option>
+                        </select>    
+                    </div>
+                    <div class="customCurrencySelect2">
+                        <select class="currencySelect2">
+                            <option value="">--Select one of the currency--</option>
+                            <option value="INR">Indian Ruppee (INR)</option>
+                            <option value="USD">US Dollars (USD)</option>
+                        </select>
+                    </div>
+        <button type="submit" class="submit">Convert</button>
+   </div>
+    
+    <script src="jQuery.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
